@@ -1,3 +1,4 @@
-a = 2
+import numpy as np
+a = np.array([1,2,3,4,5])
 b = 3
-print "Addition of two numbers : ",a+b
+print "Adding numpy array with number : ",a+b
